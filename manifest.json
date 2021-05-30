@@ -1,0 +1,12 @@
+{
+  "name": "LinkedIn Auto Endorse",
+  "description": "This extension endorses all skills via right-click menu",
+  "icons": {"16": "kp16.png", "48": "kp48.png", "128": "kp128.png"},
+  "version": "0.1",
+
+  "permissions": ["contextMenus", "https://www.linkedin.com/*"],
+
+  "background": {
+    "scripts": ["main.js"]},
+    "manifest_version": 2
+}
